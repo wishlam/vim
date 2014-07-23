@@ -19,3 +19,6 @@ set term=xterm-256color
 set termencoding=utf-8
 
 filetype plugin indent on
+syntax on
+
+set runtimepath^=~/.vim/bundle/ctrlp.vim
