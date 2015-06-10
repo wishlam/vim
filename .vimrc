@@ -1,6 +1,6 @@
 set ls=2
 set ruler
-colorscheme desert 
+colorscheme monokai 
 set tabstop=2
 set shiftwidth=2
 set expandtab
@@ -23,3 +23,16 @@ filetype plugin indent on
 syntax on
 
 set runtimepath^=~/.vim/bundle/ctrlp.vim
+
+set nocompatible
+filetype off
+
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+Plugin 'gmarik/Vundle.vim'
+Plugin 'scrooloose/syntastic'
+Plugin 'Valloric/YouCompleteMe'
+
+call vundle#end()            " required
+filetype plugin indent on    " required
