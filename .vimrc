@@ -9,6 +9,9 @@ set laststatus=2
 
 nmap <F3> :set hls!<CR>:set hls?<CR> 
 
+
+let g:airline_powerline_fonts = 1
+
 set guifont=Liberation\ Mono\ for\ Powerline:h15
 set encoding=utf-8
 set t_Co=256
@@ -31,6 +34,7 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 Plugin 'scrooloose/syntastic'
 Plugin 'bling/vim-airline'
+Plugin 'tpope/vim-fugitive'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
