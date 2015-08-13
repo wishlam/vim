@@ -1,0 +1,13 @@
+Some quick notes about pane splitting:
+
+    <C-w>n - :new horizontal split (editing a new empty buffer)
+    <C-w>s - :split window horizontally (editing current buffer)
+    <C-w>v - :vsplit window vertically (editing current buffer)
+    <C-w>c - :close window
+    <C-w>o - close all windows, leaving :only the current window open
+    <C-w>w - go to next window
+    <C-w>p - go to previous window
+    <C-w><Up> - go to window above
+    <C-w><Down> - go to window below
+    <C-w><Left> - go to window on left
+    <C-w><Right> - go to window on right
