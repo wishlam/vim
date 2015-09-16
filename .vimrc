@@ -50,10 +50,11 @@ Bundle 'scrooloose/nerdtree'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
+"""""""""""
+" NerdTree
+"""""""""""
 "Shortcut for NERDTreeToggle
 nmap <f12> :NERDTreeToggle <CR>
 
 "Show hidden files in NerdTree
 let NERDTreeShowHidden=1
-
-"autopen NERDTree and focus cursor in new document
