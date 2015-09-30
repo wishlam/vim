@@ -1,4 +1,4 @@
-""""""""
+"""""""
 " Colors
 """"""""
 colorscheme zenburn 
@@ -52,8 +52,9 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'scrooloose/syntastic'
 Plugin 'bling/vim-airline'
 Plugin 'tpope/vim-fugitive'
+Plugin 'pearofducks/ansible-vim'
 
-Bundle 'chase/vim-ansible-yaml'
+"Bundle 'chase/vim-ansible-yaml'
 Bundle 'scrooloose/nerdtree'
 
 call vundle#end()            " required
