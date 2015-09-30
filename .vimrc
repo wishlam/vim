@@ -32,7 +32,9 @@ set backspace=indent,eol,start
 set laststatus=2
 nmap <F3> :set hls!<CR>:set hls?<CR> 
 let g:airline_powerline_fonts = 1
-let g:airline_theme = 'powerlineish'
+" Maybe I will try the theme below sometime
+"let g:airline_theme='tomorrow'
+let g:airline_theme='molokai'
 let g:ansible_options = {'ignore_blank_lines': 0} 
 let g:netrw_liststyle=3
 filetype plugin indent on
