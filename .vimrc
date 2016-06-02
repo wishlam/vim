@@ -29,6 +29,7 @@ set backspace=indent,eol,start
 """""""""""""""
 " Miscellaneous
 """""""""""""""
+set relativenumber
 set laststatus=2
 nmap <F3> :set hls!<CR>:set hls?<CR> 
 let g:airline_powerline_fonts = 1
@@ -49,10 +50,10 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 Plugin 'gmarik/Vundle.vim'
-Plugin 'scrooloose/syntastic'
 Plugin 'bling/vim-airline'
-Plugin 'tpope/vim-fugitive'
 Plugin 'pearofducks/ansible-vim'
+Plugin 'tpope/vim-fugitive'
+Plugin 'scrooloose/syntastic'
 
 "Bundle 'chase/vim-ansible-yaml'
 Bundle 'scrooloose/nerdtree'
