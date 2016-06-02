@@ -1,4 +1,21 @@
 """""""
+" Keys
+"""""""
+" Vertical 
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+" Horizontal
+nnoremap <C-H> <C-W><C-H>
+nnoremap <C-L> <C-W><C-L>
+
+"""""""
+" Panes
+"""""""
+" Set default split behavior
+set splitbelow
+set splitright
+
+"""""""
 " Colors
 """"""""
 colorscheme zenburn 
