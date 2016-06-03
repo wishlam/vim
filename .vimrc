@@ -47,6 +47,7 @@ set backspace=indent,eol,start
 " Miscellaneous
 """""""""""""""
 set relativenumber
+set nu
 set laststatus=2
 nmap <F3> :set hls!<CR>:set hls?<CR> 
 let g:airline_powerline_fonts = 1
