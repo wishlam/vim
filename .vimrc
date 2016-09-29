@@ -18,7 +18,7 @@ set splitright
 """""""
 " Colors
 """"""""
-colorscheme zenburn 
+colorscheme darkburn 
 set background=dark
 hi Search ctermfg=Yellow ctermbg=Magenta 
 hi Visual ctermfg=DarkGray ctermbg=LightCyan
@@ -72,6 +72,8 @@ Plugin 'bling/vim-airline'
 Plugin 'pearofducks/ansible-vim'
 Plugin 'tpope/vim-fugitive'
 Plugin 'scrooloose/syntastic'
+Plugin 'vim-airline/vim-airline-themes'
+Plugin 'flazz/vim-colorschemes'
 
 "Bundle 'chase/vim-ansible-yaml'
 Bundle 'scrooloose/nerdtree'
