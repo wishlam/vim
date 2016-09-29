@@ -15,14 +15,6 @@ nnoremap <C-L> <C-W><C-L>
 set splitbelow
 set splitright
 
-"""""""
-" Colors
-""""""""
-colorscheme darkburn 
-set background=dark
-hi Search ctermfg=Yellow ctermbg=Magenta 
-hi Visual ctermfg=DarkGray ctermbg=LightCyan
-set term=xterm-256color
 
 """""""""""""""""
 " Tabs and spaces
@@ -42,6 +34,16 @@ set t_Co=256
 set fillchars+=stl:\ ,stlnc:\
 set termencoding=utf-8
 set backspace=indent,eol,start
+set cursorline
+
+"""""""
+" Colors
+""""""""
+colorscheme darkburn 
+set background=dark
+highlight Search ctermfg=Yellow ctermbg=Magenta cterm=bold,underline
+highlight Visual ctermfg=DarkGray ctermbg=LightCyan
+set term=xterm-256color
 
 """""""""""""""
 " Miscellaneous
@@ -51,15 +53,15 @@ set nu
 set laststatus=2
 nmap <F3> :set hls!<CR>:set hls?<CR> 
 let g:airline_powerline_fonts = 1
-" Maybe I will try the theme below sometime
-"let g:airline_theme='tomorrow'
-let g:airline_theme='molokai'
+let g:airline_theme='tomorrow'
 let g:ansible_options = {'ignore_blank_lines': 0} 
 let g:netrw_liststyle=3
 filetype plugin indent on
-syntax on
+syntax enable
 set nocompatible
 filetype off
+" Tab wildcard display
+set wildmenu
 
 """"""""
 " Vundle
