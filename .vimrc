@@ -36,15 +36,6 @@ set termencoding=utf-8
 set backspace=indent,eol,start
 set cursorline
 
-"""""""
-" Colors
-""""""""
-colorscheme darkburn 
-set background=dark
-highlight Search ctermfg=Yellow ctermbg=Magenta cterm=bold,underline
-highlight Visual ctermfg=DarkGray ctermbg=LightCyan
-set term=xterm-256color
-
 """""""""""""""
 " Miscellaneous
 """""""""""""""
@@ -96,3 +87,13 @@ let NERDTreeShowHidden=1
 " CtrlP
 """""""
 set runtimepath^=~/.vim/bundle/ctrlp.vim
+
+"""""""
+" Colors
+""""""""
+colorscheme darkburn 
+set background=dark
+hi Search ctermfg=Yellow ctermbg=Magenta cterm=bold,underline
+hi Visual ctermfg=DarkGray ctermbg=LightCyan
+set term=xterm-256color
+
