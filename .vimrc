@@ -8,13 +8,17 @@ nnoremap <C-K> <C-W><C-K>
 nnoremap <C-H> <C-W><C-H>
 nnoremap <C-L> <C-W><C-L>
 
+"""""""""""""""
+" Mouse support
+"""""""""""""""
+set mouse=a
+
 """""""
 " Panes
 """""""
 " Set default split behavior
 set splitbelow
 set splitright
-
 
 """""""""""""""""
 " Tabs and spaces
@@ -42,7 +46,7 @@ set cursorline
 set relativenumber
 set nu
 set laststatus=2
-nmap <F3> :set hls!<CR>:set hls?<CR> 
+nmap <F5> :set hls!<CR>:set hls?<CR> 
 let g:airline_powerline_fonts = 1
 let g:airline_theme='tomorrow'
 let g:ansible_options = {'ignore_blank_lines': 0} 
@@ -91,7 +95,17 @@ set runtimepath^=~/.vim/bundle/ctrlp.vim
 """""""
 " Colors
 """"""""
+" Favorites:
+" Tomorrow-Night-Blue.vim
+" Tomorrow-Night-Eighties.vim
+" darkburn.vim
+" zenburn.vim
+" Tomorrow-Night-Bright.vim
+" Tomorrow-Night.vim
+" gruvbox.vim
+"
 colorscheme darkburn 
+"colorscheme gruvbox
 set background=dark
 hi Search ctermfg=Yellow ctermbg=Magenta cterm=bold,underline
 hi Visual ctermfg=DarkGray ctermbg=LightCyan
