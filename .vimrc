@@ -8,10 +8,19 @@ nnoremap <C-K> <C-W><C-K>
 nnoremap <C-H> <C-W><C-H>
 nnoremap <C-L> <C-W><C-L>
 
+""""""""""""""""""""""""""
+" For Tabs and shift tabs
+""""""""""""""""""""""""""
+" for command mode
+nnoremap <S-Tab> <<
+nnoremap <Tab> >>
+" for insert mode
+inoremap <S-Tab> <C-d>
+
 """""""""""""""
 " Mouse support
 """""""""""""""
-set mouse=a
+set mouse=r
 
 """""""
 " Panes
@@ -25,9 +34,9 @@ set splitright
 """""""""""""""""
 set ls=2
 set ruler
-set tabstop=2
-set shiftwidth=2
 set expandtab
+set tabstop=2 shiftwidth=2
+
 
 """""""""""""""""""
 "Fonts and encoding
