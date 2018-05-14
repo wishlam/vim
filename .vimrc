@@ -26,8 +26,8 @@ set mouse=r
 " Panes
 """""""
 " Set default split behavior
-set splitbelow
 set splitright
+set splitbelow
 
 """""""""""""""""
 " Tabs and spaces
