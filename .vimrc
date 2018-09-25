@@ -20,7 +20,9 @@ inoremap <S-Tab> <C-d>
 """""""""""""""
 " Mouse support
 """""""""""""""
-set mouse=r
+if has('mouse')
+  set mouse=a
+endif
 
 """""""
 " Panes
