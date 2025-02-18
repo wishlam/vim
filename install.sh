@@ -1,3 +1,3 @@
 #!/bin/bash
 
-ln -s $HOME/repositories/vim/.vimrc .vimrc
+ln -s $HOME/Repos/wishlam/vim/.vimrc $HOME/.vimrc
