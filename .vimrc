@@ -20,9 +20,9 @@ inoremap <S-Tab> <C-d>
 """""""""""""""
 " Mouse support
 """""""""""""""
-if has('mouse')
-  set mouse=a
-endif
+"if has('mouse')
+"  set mouse=a
+"endif
 
 """""""
 " Panes
@@ -43,7 +43,7 @@ set textwidth=80
 """""""""""""""""""
 "Fonts and encoding
 """""""""""""""""""
-set guifont=Liberation\ Mono\ for\ Powerline:h15
+set guifont=Droid\ Sans\ Mono\ Dotted\ for\ Powerline:h15
 set encoding=utf-8
 set t_Co=256
 set fillchars+=stl:\ ,stlnc:\
@@ -81,7 +81,7 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'bling/vim-airline'
 Plugin 'pearofducks/ansible-vim'
 Plugin 'tpope/vim-fugitive'
-Plugin 'scrooloose/syntastic'
+Plugin 'dense-analysis/ale'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'flazz/vim-colorschemes'
 Plugin 'christoomey/vim-tmux-navigator'
@@ -91,7 +91,7 @@ Plugin 'ntpeters/vim-better-whitespace'
 "Plugin 'Yggdroot/indentLine'
 
 "Bundle 'chase/vim-ansible-yaml'
-Bundle 'scrooloose/nerdtree'
+Plugin 'preservim/nerdtree'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -118,12 +118,12 @@ set runtimepath^=~/.vim/bundle/ctrlp.vim
 " Tomorrow-Night-Eighties "Issues: Line numbers are too dark
 " Tomorrow-Night-Bright "Issues: Line numbers are too dark
 " Tomorrow-Night-Blue.vim
-" zenburn.vim
+" colorscheme zenburn
 " Tomorrow-Night-Bright.vim
 " Tomorrow-Night.vim
 "
-colorscheme darkburn
-"colorscheme gruvbox
+"colorscheme darkburn
+colorscheme gruvbox
 set background=dark
 hi Search ctermfg=Yellow ctermbg=Magenta cterm=bold,underline
 hi Visual ctermfg=DarkGray ctermbg=LightCyan
